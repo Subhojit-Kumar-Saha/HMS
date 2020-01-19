@@ -1,0 +1,30 @@
+
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  
+   .r {
+    margin-top: 10rem;
+    margin-left: 15rem;
+   }
+  
+   .jumbotron {
+    margin-top: 2rem;
+    text-align: center;
+   }
+   h1 {
+    font-family: Megrim;
+   }
+   
+  .s {
+    margin-left: 15rem;
+    margin-top: 5rem;
+    width: 100%;
+    
+  }
+  

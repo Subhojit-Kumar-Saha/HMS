@@ -1,0 +1,42 @@
+div {
+	width: 500px;
+	height: 500px;
+	margin-top: 300px;
+	margin-left: 700px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-family: Carter One;
+	font-size: 50px;
+	animation: fadein 5s;
+	-webkit-animation: fadein 10s;
+}
+
+p {
+	font-size: 30px;
+	font-family: Sigmar One;
+	-webkit-animation: fadein 15s;
+}
+li {
+	font-family: Monoton;
+	font-size: 20px;
+	-webkit-animation: fadein 20s;
+
+}
+
+body {
+	background: url("https://i.pinimg.com/originals/f1/4e/9c/f14e9cc84854358f08917ad8a5568765.jpg");
+	background-size: cover;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

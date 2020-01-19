@@ -1,0 +1,39 @@
+<head>
+   
+    <link  rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link  rel="stylesheet" type="text/css" href="patsearch.css">
+
+    <title>
+         Patient
+    </title>
+</head>
+<body>
+    
+    <div class="ui main text container segment">
+        <% searchpat.forEach(function(search){%>
+            <div class = "ui raised segment"
+        
+                <p><strong>NAME:</strong>           <%=search.name%></p>
+                <p><strong>GUARDIAN NAME:</strong>  <%=search.guardian%></p>
+                <p><strong>AGE:</strong>            <%=search.age%></p>
+                <p><strong>CONTACT NUMBER:</strong> <%=search.mobile%></p>
+                <p><strong>GENDER:</strong>         <%=search.gender%></p>
+                <p><strong>EMAIL ID:</strong>       <%=search.email%></p>
+                <p><strong>DATE OF BIRTH:</strong>  <%=search.birthday_day%>-<%=search.birthday_month%>-<%=search.birthday_year%></p>
+                <p><strong>CITY:</strong>           <%=search.city%></p>
+                <p><strong>STATE:</strong>          <%=search.state%></p>
+                <p><strong>NATIONALITY:</strong>    <%=search.nationality%></p>
+                <p><strong>ADDRESS:</strong>        <%=search.address%></p>
+            </div>
+            <a href="/patshow/<%=search._id%>/edit" class="ui orange basic button">Update</a>
+            <form style="display: inline" method="POST" action="/patshow/<%=search._id%>?_method=DELETE">
+                <button class="ui red basic button" type="submit">Delete</button>
+            </form>
+        <%});%>
+    </div>
+    
+    
+    
+
+    
+</body>

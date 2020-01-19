@@ -1,0 +1,23 @@
+<head>
+    <link  rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css">
+    <link  rel="stylesheet" type="text/css" href="patsearch.css">
+    <title>
+        Search Patient
+    </title>
+</head>
+<body>
+
+    <div class="ui main text container stacked segment">
+        <div class="ui huge header">Search Patient</div>
+            <form class="ui form" action="/patshow" method="POST">
+                <div class="field">
+                    <label>NAME</label>
+                    <input type="text" name="name" placeholder="Enter the name">
+                </div>
+       
+                <input class="ui inverted big violet button" type="submit">
+            </form>
+        </div>
+    </div>
+
+</body>

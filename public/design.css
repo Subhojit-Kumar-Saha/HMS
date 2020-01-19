@@ -1,0 +1,75 @@
+.photo-img{
+    background-image: url("https://www.netbuilder.com/wp-content/uploads/2018/04/hero_background_contact_us.jpg");
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .photo-text{
+    background-color: rgba(255,255,255,0.3);  /*transparent white background/opacity/see-through*/
+    color: white;
+    position:absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 45%;
+    padding: 50px;
+    height: 95%;
+    font-size: 30px;
+    text-align: center;
+  }
+  .heading {
+      font-family: "Times New Roman";
+      text-align: center;
+      font-style: italic;
+    font-size: 45px;
+    font-weight: bold;
+  }
+  .id {
+      font-size: 20px;
+      font-style: italic;
+      text-decoration: underline;
+  }
+  .fas {
+    font-size: 50px;
+  }
+    .mail {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .address {
+        font-size: 30px;
+      font-weight: bold;
+  }
+   .idd {
+      font-size: 21px;
+      font-style: italic;
+  
+  }
+  .inline1 { 
+      display: inline-block; 
+      font-size: 30px;
+      font-style: italic;
+      font-family: "Times New Roman";
+  }
+  .inline2 { 
+      display: inline-block; 
+      font-size: 30px;
+      font-style: italic;
+      font-family: "Times New Roman";
+  }
+  .inline3 { 
+      display: inline-block; 
+      font-size: 30px;
+      font-style: italic;
+      font-family: "Times New Roman";
+  }
+  .inline4 { 
+      display: inline-block; 
+      font-size: 30px;
+      font-style: italic;
+      font-family: "Times New Roman";
+  }
+  
+  

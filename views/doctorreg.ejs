@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" type="text/css" href="doctorreg.css">
+<head>
+<title>Doctor Registration</title>
+</head>
+<body>
+<div class="shadow-lg p-3 mb-5 bg-white rounded">
+    <a class="btn btn-outline-dark" href="/home"><i class="fas fa-backward"></i> HOME </a>
+    <h1 class="display-3 " style="text-align: center;"><i class="fas fa-user-md"></i> Doctor's Registration</h1>
+</div>
+
+<div class="container">
+<form action="/doctors" method="POST">
+    <div class="form-group">
+        <label><strong>Name: </strong></label>
+        <input type="text" name="name" class="form-control" placeholder="Enter Name"  required>
+    </div>
+    <div class="form-group">
+        <label><strong>Age: </strong></label>
+        <input type="number" name="age" class="form-control" placeholder="Enter Age" required>
+    </div>
+    <div class="form-group">
+        <label><strong>Mobile Number: </strong></label>
+        <input type="tel" name="mobile" class="form-control" placeholder="Enter Mobile Number" required>
+    </div>
+    <div class="form-group">
+        <label><strong>Sex: </strong></label><br />
+        <input type="radio" name="sex" value="Male" > Male<br>
+         <input type="radio" name="sex" value="Female"> Female<br>
+         <input type="radio" name="sex" value="Other"> Other
+    </div> 
+    <div class="form-group">
+        <label><strong>Degree: </strong></label>
+        <input type="text" name="degree" class="form-control" placeholder="Enter Degree" required>
+    </div>
+    <div class="form-group">
+        <label><strong>Speciality: </strong></label>
+        <input type="text" name="speciality" class="form-control" placeholder="Enter Speciality" required>
+    </div>
+    <div class="form-group">
+        <label><strong>Days: </strong></label>
+        <input type="text" name="days" class="form-control" placeholder="Enter Days" required>
+    </div>
+    <div class="form-group">
+        <label><strong>Time: </strong></label>
+        <input type="text" name="time" class="form-control" placeholder="Enter Time" required>
+    </div>
+    <div class="form-group">
+        <label><strong>Address: </strong></label>
+        <input type="text" name="address" class="form-control" placeholder="Enter Address" required>
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-outline-primary btn-block" placeholder="Submit">
+    </div>
+</form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>

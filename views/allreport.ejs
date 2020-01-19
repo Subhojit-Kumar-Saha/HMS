@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link  rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css">
+        <h1 class="ui centered dividing header">Reports</h1>
+        <hr>
+    </head>
+    <body>
+        <% showrep.forEach(function(search){%>
+            <div class="">
+                    <h1 class="ui centered dividing header">Report of <%=search.name%></h1>
+                    <div class="ui text container segment">
+                        <h3 class="ui dividing header">Admission Details</h3>
+                        <p><strong>Name: <%=search.name%></strong></p>
+                        <p><strong>Appointment/Admit Date: <%=search.admit%></strong></p>
+                        <p><strong>Discharge: <%=search.discharge%></strong></p>
+                        <p><strong>Days: <%=search.days%></strong></p>
+                    </div>
+                    <div class="ui text container segment">
+                        <h3 class="ui dividing header">Treatments and Medications</h3>
+                        <p><strong>Treatment 1: <%=search.treat1%></strong></p>
+                        <p><strong>Treatment 2: <%=search.treat2%></strong></p>
+                        <p><strong>Treatment 3: <%=search.treat3%></strong></p>
+                        <p><strong>Treatment 4: <%=search.treat4%></strong></p>
+                        <p><strong>Treatment 5: <%=search.treat5%></strong></p>
+                        <p><strong>Other Treatments: <%=search.otreat%></strong></p>
+                    </div>
+                    <div class="ui text container segment">
+                        <h3 class="ui dividing header">Symptoms or Conditions</h3>
+                        <p><strong>Symptom 1: <%=search.symp1%></strong></p>
+                        <p><strong>Symptom 2: <%=search.symp2%></strong></p>
+                        <p><strong>Symptom 3: <%=search.symp3%></strong></p>
+                        <p><strong>Symptom 4: <%=search.symp4%></strong></p>
+                        <p><strong>Symptom 5: <%=search.symp5%></strong></p>
+                        <p><strong>Other Symptoms: <%=search.osymp%></strong></p>
+                    </div>
+                    <div class="ui text container segment">
+                        <h3 class="ui dividing header">Diagnosis</h3>
+                        <p><strong>Diagnosis 1: <%=search.diag1%></strong></p>
+                        <p><strong>Diagnosis 2: <%=search.diag2%></strong></p>
+                        <p><strong>Diagnosis 3: <%=search.diag3%></strong></p>
+                        <p><strong>Diagnosis 4: <%=search.diag4%></strong></p>
+                        <p><strong>Other Diagnosis: <%=search.odiag%></strong></p>
+                    </div>
+                
+                    <div class="ui main text container segment">
+                        <h3 class="ui dividing header">
+                            Comments
+                        </h3>
+                        <p><%=search.comment%></p>
+                    </div>
+                </div>
+                <hr>
+        <%});%>
+    </body>
+</html>

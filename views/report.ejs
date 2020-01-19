@@ -1,0 +1,167 @@
+<html>
+    <head>
+        <link  rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="report.css">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Monoton|Ranga|Syncopate&display=swap" rel="stylesheet">
+
+        <title>Report</title>
+        <div class="ui huge centered header" style="color: rgb(4, 8, 244);font-size: 50px; font-family: Cinzel Decorative;">PATIENT REPORT</div>
+    </head>
+    <body>
+        <form class="ui form" action="/allreport" method="POST">
+            <div class="">
+                
+                    <div class="ui text container teal segment">
+                        <h4 class="ui dividing header">Admission Details</h4>
+                        <div class="inline fields">
+                            <label>Name :  </label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="name">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Appointment/Admit Date :  </label>
+                            <div class="ui seven field wide">
+                                <input type="date" name="admit">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Discharge Date :  </label>
+                            <div class="ui seven field wide">
+                                <input type="date" name="discharge">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Days in care :  </label>
+                            <div class="ui seven field wide">
+                                <input type="Number" name="days">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui text container orange segment">
+                        <h4 class="ui dividing header">Treatments and Medications</h4>
+                        <div class="inline fields">
+                            <label>Treatment 1 : </label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="treat1">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Treatment 2 : </label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="treat2">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Treatment 3 : </label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="treat3">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Treatment 4 : </label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="treat4">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Treatment 5 : </label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="treat5">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Other Treatments : </label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="otreat">
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="ui text container purple segment">
+                        <h4 class="ui dividing header">Symptoms or Conditions</h4>
+                        <div class="inline fields">
+                            <label>Symptom 1 : </label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="symp1">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Symptom 2 : </label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="symp2">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Symptom 3 : </label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="symp3">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Symptom 4 : </label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="symp4">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Symptom 5 : </label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="symp5">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Other Symptoms : </label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="osymp">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui text container blue segment">
+                        <h4 class="ui dividing header">Diagnosis</h4>
+                        <div class="inline fields">
+                            <label>Diagnosis 1 :</label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="diag1">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Diagnosis 2 :</label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="diag2">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Diagnosis 3 :</label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="diag3">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Diagnosis 4 :</label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="diag4">
+                            </div>
+                        </div>
+                        <div class="inline fields">
+                            <label>Other Diagnosis :</label>
+                            <div class="ui seven field wide">
+                                <input type="text" name="odiag">
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="ui text container green segment">
+                        <label>Comments,Remarks, or Details</label>
+                        <textarea name="comment"></textarea>
+                    </div>
+                    <div class="wrapper">
+                        <button class="ui positive right labeled icon button" type="submit"><i class="right arrow icon"></i>Submit</button>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+
+    </body>
+</html>

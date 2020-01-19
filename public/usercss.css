@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://www.zastavki.com/pictures/originals/20183D-graphics_Blue_and_yellow_shapes_3D_graphics_128565_.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center; 
+    background-size: cover;
+  }
+  .marquee{
+      font-family: 'Oregano', cursive;
+      font-size: 50px;
+      word-spacing: 10px;
+      padding-top: 5%;
+      /*font-weight: bold;*/
+  }
+  .carousel-caption{
+      font-family: Luckiest Guy;
+      /*font-style: italic;*/
+      color: #3352FF;
+      font-weight: bold;
+      font-size: 20px;
+  }
+  .a{
+      font-family: 'Bree Serif', serif;
+      /*font-style: italic;*/
+      color: #e62e00;
+      /*font-weight: bold;
+      font-size: 20px; #40ff00  Titillium Web', sans-serif*/
+  }

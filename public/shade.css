@@ -1,0 +1,42 @@
+.bg-image {
+    /* The image used */
+    background-image: url("http://www.wallpapers13.com/wp-content/uploads/2015/12/Fall-nature-backgrounds-32337-hd-wallpapers-915x515.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgba(255,255,255,0.3); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 35%;
+    padding: 50px;
+    height: 55%;
+    text-align: center;
+  }
+  .fab {
+    font-size: 68px;
+    position: all;
+    
+  }
+  .checkbox{
+    text-align: left;
+  }
+  
+  
